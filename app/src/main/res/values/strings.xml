@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Instagram Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">This is Home Page</string>
+    <string name="search">This is search page</string>
+    <string name="profile">This is profile page</string>
+
+</resources>
