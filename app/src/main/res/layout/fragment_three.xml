@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragment_three"
-    android:background="@color/teal_200">
+    android:background="@color/black">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="@string/search"
         android:layout_gravity="center"
+        android:textColor="@color/white"
         android:textSize="25dp"
         />
 

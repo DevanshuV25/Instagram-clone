@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragment_one"
-    android:background="@color/purple_200">
+    android:background="@color/black">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:text="@string/home"
         android:layout_gravity="center"
-        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
         />
 
 </FrameLayout>

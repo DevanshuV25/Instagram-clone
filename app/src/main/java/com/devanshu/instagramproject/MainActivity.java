@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         view = findViewById(R.id.bottomNavigationView2);
         replacefragement(new Fragment_one());
+        view.getSelectedItemId();
         view.setOnItemSelectedListener(item ->  {
-
                 switch (item.getItemId()){
 
                     case R.id.home :
@@ -36,10 +36,15 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.profile:
                         replacefragement(new Fragment_two());
                         break;
-
+                    case R.id.notify:
+                        replacefragement(new Fragment_notify());
+                        break;
+                    case R.id.addpost:
+                        replacefragement(new Fragment_four());
+                        break;
                 }
 
-                return true;
+                return false;
         });
     }
 
