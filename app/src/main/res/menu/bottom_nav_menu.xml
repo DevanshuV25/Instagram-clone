@@ -2,27 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     >
 
-    <item android:title=""
+    <item android:title="home"
         android:icon="@drawable/baseline_home_24"
         android:id="@+id/home"
 
         />
-    <item android:title=""
+    <item android:title="search"
         android:icon="@drawable/baseline_search_24"
         android:id="@+id/search"
         />
 
-    <item android:title=""
+    <item android:title="addpost"
         android:icon="@drawable/add"
         android:id="@+id/addpost"
         />
 
-    <item android:title=""
+    <item android:title="notify"
         android:icon="@drawable/notify"
         android:id="@+id/notify"
         />
 
-    <item android:title=""
+    <item android:title="profile"
         android:icon="@drawable/baseline_person_24"
         android:id="@+id/profile"
         />

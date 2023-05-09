@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "241042785364",
+    "firebase_url": "https://instagram-project-ed20a-default-rtdb.firebaseio.com",
+    "project_id": "instagram-project-ed20a",
+    "storage_bucket": "instagram-project-ed20a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241042785364:android:c2fd53c359fe94caed99c1",
+        "android_client_info": {
+          "package_name": "com.devanshu.instagramproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241042785364-u1s2g7174vv87dj7o6pbv8t6rghdp2j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeTzWZ8pfUzbxE_jSDotLRvhu8tsnC9T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241042785364-u1s2g7174vv87dj7o6pbv8t6rghdp2j8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

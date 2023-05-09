@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".new_name_"
+    android:background="@color/grey_2">
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What's your name?"
+        android:textSize="27dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/namebox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:hint="Full name"
+        android:background="@drawable/text_field_background"
+        android:padding="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        />
+
+    <Button
+        android:id="@+id/namenext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/button_background"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/namelogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Already have an account?"
+        android:layout_marginBottom="17dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Instablue"
+        />
+
+</RelativeLayout>
